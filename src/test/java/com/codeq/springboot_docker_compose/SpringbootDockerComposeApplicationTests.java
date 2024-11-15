@@ -13,8 +13,8 @@ class SpringbootDockerComposeApplicationTests {
     private static final Logger logger = LoggerFactory.getLogger(SpringbootDockerComposeApplicationTests.class);
 
     @Test
-    public contextLoads() {
-        logger.info("Test cases executing");
+    void contextLoads() {
+        logger.info("Test cases");
         assertEquals(true, true);
     }
 
