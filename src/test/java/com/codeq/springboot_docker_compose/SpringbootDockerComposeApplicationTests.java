@@ -15,7 +15,7 @@ class SpringbootDockerComposeApplicationTests {
     @Test
     void contextLoads() {
         logger.info("Test cases");
-        assertEquals(true, true);
+        assertEquals(false, false);
     }
 
 }
